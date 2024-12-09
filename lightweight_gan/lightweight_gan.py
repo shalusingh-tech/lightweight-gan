@@ -35,7 +35,7 @@ from adabelief_pytorch import AdaBelief
 
 # asserts
 
-assert torch.cuda.is_available(), 'You need to have an Nvidia GPU with CUDA installed.'
+#assert torch.cuda.is_available(), 'You need to have an Nvidia GPU with CUDA installed.'
 
 # constants
 
