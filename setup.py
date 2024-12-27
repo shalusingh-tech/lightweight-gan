@@ -15,9 +15,9 @@ setup(
   version = __version__,
   license='MIT',
   description = 'Lightweight GAN',
-  author = 'Phil Wang',
-  author_email = 'lucidrains@gmail.com',
-  url = 'https://github.com/lucidrains/lightweight-gan',
+  author = 'Shalu Singh',
+  author_email = 'singhtech.10@gmail.com',
+  url = 'https://github.com/shalusingh-tech/lightweight-gan',
   keywords = [
     'artificial intelligence',
     'deep learning',
