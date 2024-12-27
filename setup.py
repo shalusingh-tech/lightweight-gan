@@ -5,7 +5,7 @@ sys.path[0:0] = ['lightweight_gan']
 from version import __version__
 
 setup(
-  name = 'lightweight-gan',
+  name = 'lightweight-gan-v1',
   packages = find_packages(),
   entry_points={
     'console_scripts': [
