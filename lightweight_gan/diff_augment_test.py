@@ -11,7 +11,7 @@ from torch.utils.data import DataLoader
 from lightweight_gan.lightweight_gan import AugWrapper, ImageDataset
 
 
-assert torch.cuda.is_available(), 'You need to have an Nvidia GPU with CUDA installed.'
+device = "GPU" if torch.cuda.is_available() else "CPU"
 
 
 class DummyModel(nn.Module):
